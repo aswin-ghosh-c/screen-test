@@ -1,0 +1,61 @@
+{
+  "appName": "Testeur d'Écran",
+  "startTest": "Démarrer le Test",
+  "selectDevice": "Sélectionnez votre appareil",
+  "mobile": "Mobile",
+  "web": "Web",
+  "next": "Suivant",
+  "previous": "Précédent",
+  "goBack": "Retourner",
+  "complete": "Test Terminé !",
+  "restart": "Redémarrer",
+  "test": {
+    "touch": "Sensibilité Tactile",
+    "rgb": "Test de Couleur RGB",
+    "deadpixel": "Test de Pixels Morts",
+    "uniformity": "Uniformité",
+    "color-distance": "Distances de Couleurs",
+    "gradients": "Dégradés",
+    "sharpness": "Netteté",
+    "viewing-angle": "Angle de Vue",
+    "gamma": "Gamma",
+    "response-time": "Temps de Réponse"
+  },
+  "completionMessage": "Vous avez terminé vos tests d'écran. Merci d'utiliser Testeur d'Écran !",
+  "adSpace": "[Espace Publicitaire]",
+
+  "language": "Langue",
+  "comingSoon": "Bientôt disponible",
+  "welcomeMessage": "Testez facilement la qualité de l'écran de votre appareil en quelques étapes simples.",
+  "touch": {
+    "instructions": "Touchez et faites glisser votre doigt sur la zone ci-dessous. Le chemin sera dessiné en temps réel."
+  },
+  "rgb": {
+    "instructions": "Appuyez sur une couleur pour remplir l'écran et vérifier l'uniformité et la visibilité des couleurs."
+  },
+  "deadpixel": {
+    "instructions": "Appuyez sur la zone ci-dessous pour faire défiler les couleurs unies. Recherchez les pixels bloqués ou morts."
+  },
+  "uniformity": {
+    "instructions": "Vérifiez l'uniformité de la luminosité et des couleurs sur l'écran."
+  },
+  "colordistance": {
+    "instructions": "Vérifiez la capacité de votre écran à distinguer les couleurs similaires."
+  },
+  "gradients": {
+    "instructions": "Vérifiez la douceur et l'absence de bandes dans les dégradés de couleurs."
+  },
+  "sharpness": {
+    "instructions": "Vérifiez la clarté et la netteté des lignes et du texte.",
+    "text": "Texte net"
+  },
+  "viewingangle": {
+    "instructions": "Vérifiez la cohérence des couleurs et de la luminosité sous différents angles."
+  },
+  "gamma": {
+    "instructions": "Vérifiez la réponse gamma de votre écran avec des barres en niveaux de gris."
+  },
+  "responsetime": {
+    "instructions": "Testez le temps de réponse de votre écran avec une barre mobile."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appName": "スクリーンテスター",
+  "startTest": "テスト開始",
+  "selectDevice": "デバイスを選択",
+  "mobile": "モバイル",
+  "web": "ウェブ",
+  "next": "次へ",
+  "previous": "前へ",
+  "goBack": "戻る",
+  "complete": "テスト完了！",
+  "restart": "再起動",
+  "test": {
+    "touch": "タッチ感度",
+    "rgb": "RGBカラーテスト",
+    "deadpixel": "ドット抜けテスト",
+    "uniformity": "均一性",
+    "color-distance": "色の距離",
+    "gradients": "グラデーション",
+    "sharpness": "シャープネス",
+    "viewing-angle": "視野角",
+    "gamma": "ガンマ",
+    "response-time": "応答速度"
+  },
+  "completionMessage": "画面テストが完了しました。ご利用ありがとうございました！",
+  "adSpace": "[広告スペース]",
+
+  "language": "言語",
+  "comingSoon": "近日公開",
+  "welcomeMessage": "数ステップで簡単にデバイスの画面品質をテストできます。",
+  "touch": {
+    "instructions": "下のエリアをタッチして指をドラッグしてください。軌跡がリアルタイムで描画されます。"
+  },
+  "rgb": {
+    "instructions": "色をタップして画面を塗りつぶし、色の均一性と視認性を確認してください。"
+  },
+  "deadpixel": {
+    "instructions": "下のエリアをタップして単色を切り替えます。ドット抜けや固着ピクセルを探してください。"
+  },
+  "uniformity": {
+    "instructions": "画面全体の明るさと色の均一性を確認してください。"
+  },
+  "colordistance": {
+    "instructions": "似た色を区別する画面の能力を確認してください。"
+  },
+  "gradients": {
+    "instructions": "グラデーションの滑らかさやバンディングの有無を確認してください。"
+  },
+  "sharpness": {
+    "instructions": "線やテキストの鮮明さを確認してください。",
+    "text": "シャープなテキスト"
+  },
+  "viewingangle": {
+    "instructions": "さまざまな角度で色と明るさの一貫性を確認してください。"
+  },
+  "gamma": {
+    "instructions": "グレースケールバーでディスプレイのガンマ応答を確認してください。"
+  },
+  "responsetime": {
+    "instructions": "動くバーでディスプレイの応答速度をテストしてください。"
+  }
+}

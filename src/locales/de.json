@@ -1,0 +1,61 @@
+{
+  "appName": "Bildschirmtester",
+  "startTest": "Test starten",
+  "selectDevice": "Gerät auswählen",
+  "mobile": "Mobil",
+  "web": "Web",
+  "next": "Weiter",
+  "previous": "Zurück",
+  "goBack": "Zurückgehen",
+  "complete": "Test abgeschlossen!",
+  "restart": "Neustarten",
+  "test": {
+    "touch": "Berührungsempfindlichkeit",
+    "rgb": "RGB-Farbtest",
+    "deadpixel": "Pixelfehler-Test",
+    "uniformity": "Uniformität",
+    "color-distance": "Farbdistanzen",
+    "gradients": "Farbverläufe",
+    "sharpness": "Schärfe",
+    "viewing-angle": "Blickwinkel",
+    "gamma": "Gamma",
+    "response-time": "Reaktionszeit"
+  },
+  "completionMessage": "Sie haben Ihre Bildschirmtests abgeschlossen. Danke für die Nutzung von Bildschirmtester!",
+  "adSpace": "[Werbefläche]",
+
+  "language": "Sprache",
+  "comingSoon": "Demnächst verfügbar",
+  "welcomeMessage": "Testen Sie die Qualität Ihres Bildschirms in wenigen einfachen Schritten.",
+  "touch": {
+    "instructions": "Berühren und ziehen Sie Ihren Finger über den Bereich unten. Der Pfad wird in Echtzeit gezeichnet."
+  },
+  "rgb": {
+    "instructions": "Tippen Sie auf eine Farbe, um den Bildschirm zu füllen und die Farbhomogenität und Sichtbarkeit zu überprüfen."
+  },
+  "deadpixel": {
+    "instructions": "Tippen Sie auf den Bereich unten, um durch Vollfarben zu wechseln. Suchen Sie nach defekten oder festsitzenden Pixeln."
+  },
+  "uniformity": {
+    "instructions": "Überprüfen Sie die Helligkeits- und Farbhomogenität auf dem Bildschirm."
+  },
+  "colordistance": {
+    "instructions": "Überprüfen Sie die Fähigkeit Ihres Bildschirms, ähnliche Farben zu unterscheiden."
+  },
+  "gradients": {
+    "instructions": "Überprüfen Sie die Gleichmäßigkeit und das Fehlen von Streifen in Farbverläufen."
+  },
+  "sharpness": {
+    "instructions": "Überprüfen Sie die Klarheit und Schärfe von Linien und Text.",
+    "text": "Scharfer Text"
+  },
+  "viewingangle": {
+    "instructions": "Überprüfen Sie die Farb- und Helligkeitskonsistenz aus verschiedenen Blickwinkeln."
+  },
+  "gamma": {
+    "instructions": "Überprüfen Sie die Gamma-Reaktion Ihres Bildschirms mit Graustufenbalken."
+  },
+  "responsetime": {
+    "instructions": "Testen Sie die Reaktionszeit Ihres Bildschirms mit einem beweglichen Balken."
+  }
+}

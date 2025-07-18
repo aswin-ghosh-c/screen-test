@@ -1,0 +1,60 @@
+{
+  "appName": "Probador de Pantalla",
+  "startTest": "Iniciar Prueba",
+  "selectDevice": "Selecciona tu dispositivo",
+  "mobile": "Móvil",
+  "web": "Web",
+  "next": "Siguiente",
+  "previous": "Anterior",
+  "goBack": "Volver",
+  "complete": "¡Prueba Completa!",
+  "restart": "Reiniciar",
+  "test": {
+    "touch": "Sensibilidad Táctil",
+    "rgb": "Prueba de Color RGB",
+    "deadpixel": "Prueba de Píxeles Muertos",
+    "uniformity": "Uniformidad",
+    "color-distance": "Distancia de Colores",
+    "gradients": "Gradientes",
+    "sharpness": "Nitidez",
+    "viewing-angle": "Ángulo de Visión",
+    "gamma": "Gamma",
+    "response-time": "Tiempo de Respuesta"
+  },
+  "completionMessage": "Has terminado tus pruebas de pantalla. ¡Gracias por usar Probador de Pantalla!",
+  "adSpace": "[Espacio Publicitario]",
+  "language": "Idioma",
+  "comingSoon": "Próximamente",
+  "welcomeMessage": "Prueba fácilmente la calidad de la pantalla de tu dispositivo en unos simples pasos.",
+  "touch": {
+    "instructions": "Toca y arrastra tu dedo por el área de abajo. El recorrido se dibujará en tiempo real."
+  },
+  "rgb": {
+    "instructions": "Toca un color para llenar la pantalla y comprueba la uniformidad y visibilidad."
+  },
+  "deadpixel": {
+    "instructions": "Toca el área de abajo para alternar colores sólidos. Busca píxeles atascados o muertos."
+  },
+  "uniformity": {
+    "instructions": "Comprueba la uniformidad de brillo y color en toda la pantalla."
+  },
+  "colordistance": {
+    "instructions": "Comprueba la capacidad de tu pantalla para distinguir entre colores similares."
+  },
+  "gradients": {
+    "instructions": "Comprueba la suavidad y la ausencia de bandas en los gradientes de color."
+  },
+  "sharpness": {
+    "instructions": "Comprueba la claridad y nitidez de líneas y texto.",
+    "text": "Texto Nítido"
+  },
+  "viewingangle": {
+    "instructions": "Comprueba la consistencia de color y brillo en diferentes ángulos."
+  },
+  "gamma": {
+    "instructions": "Comprueba la respuesta gamma de tu pantalla con barras en escala de grises."
+  },
+  "responsetime": {
+    "instructions": "Prueba el tiempo de respuesta de tu pantalla con una barra en movimiento."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appName": "Penguji Layar",
+  "startTest": "Mulai Tes",
+  "selectDevice": "Pilih perangkat Anda",
+  "mobile": "Seluler",
+  "web": "Web",
+  "next": "Berikutnya",
+  "previous": "Sebelumnya",
+  "goBack": "Kembali",
+  "complete": "Tes Selesai!",
+  "restart": "Mulai Ulang",
+  "test": {
+    "touch": "Sensitivitas Sentuh",
+    "rgb": "Tes Warna RGB",
+    "deadpixel": "Tes Piksel Mati",
+    "uniformity": "Uniformitas",
+    "color-distance": "Jarak Warna",
+    "gradients": "Gradasi",
+    "sharpness": "Ketajaman",
+    "viewing-angle": "Sudut Pandang",
+    "gamma": "Gamma",
+    "response-time": "Waktu Respons"
+  },
+  "completionMessage": "Anda telah menyelesaikan tes layar Anda. Terima kasih telah menggunakan Penguji Layar!",
+  "adSpace": "[Ruang Iklan]",
+
+  "language": "Bahasa",
+  "comingSoon": "Segera hadir",
+  "welcomeMessage": "Uji kualitas layar perangkat Anda dengan mudah dalam beberapa langkah sederhana.",
+  "touch": {
+    "instructions": "Sentuh dan seret jari Anda di area di bawah ini. Jalur akan digambar secara real-time."
+  },
+  "rgb": {
+    "instructions": "Ketuk warna untuk mengisi layar dan periksa keseragaman serta visibilitas warna."
+  },
+  "deadpixel": {
+    "instructions": "Ketuk area di bawah ini untuk mengganti warna solid. Cari piksel yang macet atau mati."
+  },
+  "uniformity": {
+    "instructions": "Periksa keseragaman kecerahan dan warna di seluruh layar."
+  },
+  "colordistance": {
+    "instructions": "Periksa kemampuan layar Anda membedakan warna yang mirip."
+  },
+  "gradients": {
+    "instructions": "Periksa kelancaran dan tidak adanya garis pada gradasi warna."
+  },
+  "sharpness": {
+    "instructions": "Periksa kejelasan dan ketajaman garis serta teks.",
+    "text": "Teks Tajam"
+  },
+  "viewingangle": {
+    "instructions": "Periksa konsistensi warna dan kecerahan dari berbagai sudut."
+  },
+  "gamma": {
+    "instructions": "Periksa respons gamma layar Anda dengan batang skala abu-abu."
+  },
+  "responsetime": {
+    "instructions": "Uji waktu respons layar Anda dengan batang yang bergerak."
+  }
+}

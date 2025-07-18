@@ -1,0 +1,60 @@
+{
+  "appName": "Screen Tester",
+  "startTest": "Start Test",
+  "welcomeMessage": "Easily test your device's display quality in a few simple steps.",
+  "selectDevice": "Select your device",
+  "mobile": "Mobile",
+  "web": "Web",
+  "next": "Next",
+  "previous": "Previous",
+  "goBack": "Go Back",
+  "complete": "Test Complete!",
+  "restart": "Restart",
+  "test": {
+    "touch": "Touch Sensitivity",
+    "rgb": "RGB Color Test",
+    "deadpixel": "Dead Pixel Test",
+    "uniformity": "Uniformity",
+    "color-distance": "Color Distances",
+    "gradients": "Gradients",
+    "sharpness": "Sharpness",
+    "viewing-angle": "Viewing Angle",
+    "gamma": "Gamma",
+    "response-time": "Response Time"
+  },
+  "completionMessage": "You have finished your screen tests. Thank you for using Screen Tester!",
+  "adSpace": "[Ad Space]",
+  "language": "Language",
+  "comingSoon": "Coming Soon",
+  "touch": {
+    "instructions": "Touch and drag your finger across the area below. The path will be drawn in real time."
+  },
+  "rgb": {
+    "instructions": "Tap a color to fill the screen and check for color uniformity and visibility."
+  },
+  "deadpixel": {
+    "instructions": "Tap the area below to cycle through solid colors. Look for any stuck or dead pixels."
+  },
+  "uniformity": {
+    "instructions": "Check for brightness and color uniformity across the screen."
+  },
+  "colordistance": {
+    "instructions": "Check your screen's ability to distinguish between similar colors."
+  },
+  "gradients": {
+    "instructions": "Check for smoothness and banding in color gradients."
+  },
+  "sharpness": {
+    "instructions": "Check for clarity and sharpness of lines and text.",
+    "text": "Sharp Text"
+  },
+  "viewingangle": {
+    "instructions": "Check for color and brightness consistency at different angles."
+  },
+  "gamma": {
+    "instructions": "Check your display's gamma response with grayscale bars."
+  },
+  "responsetime": {
+    "instructions": "Test your display's response time with a moving bar."
+  }
+}

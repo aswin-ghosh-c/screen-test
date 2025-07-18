@@ -1,0 +1,61 @@
+{
+  "appName": "屏幕测试器",
+  "startTest": "开始测试",
+  "selectDevice": "选择您的设备",
+  "mobile": "移动设备",
+  "web": "网页",
+  "next": "下一步",
+  "previous": "上一步",
+  "goBack": "返回",
+  "complete": "测试完成！",
+  "restart": "重新开始",
+  "test": {
+    "touch": "触摸灵敏度",
+    "rgb": "RGB颜色测试",
+    "deadpixel": "坏点测试",
+    "uniformity": "均匀性",
+    "color-distance": "颜色距离",
+    "gradients": "渐变",
+    "sharpness": "清晰度",
+    "viewing-angle": "可视角度",
+    "gamma": "伽玛",
+    "response-time": "响应时间"
+  },
+  "completionMessage": "您已完成屏幕测试。感谢使用屏幕测试器！",
+  "adSpace": "[广告位]",
+
+  "language": "语言",
+  "comingSoon": "敬请期待",
+  "welcomeMessage": "只需几个简单步骤即可轻松测试您的设备屏幕质量。",
+  "touch": {
+    "instructions": "在下方区域触摸并拖动手指。路径将实时绘制。"
+  },
+  "rgb": {
+    "instructions": "点击颜色以填充屏幕，检查颜色均匀性和可见性。"
+  },
+  "deadpixel": {
+    "instructions": "点击下方区域以切换纯色。查找卡住或坏掉的像素。"
+  },
+  "uniformity": {
+    "instructions": "检查屏幕的亮度和颜色均匀性。"
+  },
+  "colordistance": {
+    "instructions": "检查屏幕区分相似颜色的能力。"
+  },
+  "gradients": {
+    "instructions": "检查色彩渐变的平滑度和条带现象。"
+  },
+  "sharpness": {
+    "instructions": "检查线条和文字的清晰度和锐利度。",
+    "text": "清晰文本"
+  },
+  "viewingangle": {
+    "instructions": "从不同角度检查颜色和亮度的一致性。"
+  },
+  "gamma": {
+    "instructions": "通过灰度条检查显示器的伽玛响应。"
+  },
+  "responsetime": {
+    "instructions": "通过移动条测试显示器的响应时间。"
+  }
+}
