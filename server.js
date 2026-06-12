@@ -79,8 +79,24 @@ async function createServer() {
   return { app }
 }
 
-createServer().then(({ app }) =>
-  app.listen(5173, () => {
-    console.log('Server running at http://localhost:5173')
-  })
-)
+let appPromise = null
+
+async function getApp() {
+  if (!appPromise) {
+    appPromise = createServer().then(({ app }) => app)
+  }
+  return appPromise
+}
+
+export default async (req, res) => {
+  const app = await getApp()
+  app(req, res)
+}
+
+if (!process.env.VERCEL) {
+  createServer().then(({ app }) =>
+    app.listen(5173, () => {
+      console.log('Server running at http://localhost:5173')
+    })
+  )
+}

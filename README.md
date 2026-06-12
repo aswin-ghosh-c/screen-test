@@ -64,6 +64,20 @@ npm run serve
 ```
 The Express server will serve static client assets and dynamically pre-render server-side HTML.
 
+### 3. Deploying to Vercel (SSR Mode)
+This project is configured for serverless deployment on **Vercel** via the `vercel.json` configuration.
+
+1. Install Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
+2. Run the deployment command:
+   ```bash
+   vercel
+   ```
+3. Follow the CLI prompt to link the project. Vercel will automatically run `npm run build` and deploy the Express application as a serverless function with static routing optimized for Vite's client assets.
+
+
 ---
 
 ## 📁 Repository Structure
