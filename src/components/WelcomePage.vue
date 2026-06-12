@@ -24,7 +24,7 @@ onBeforeUnmount(() => {
     
     <!-- Hero Mockup Display -->
     <div class="mockup-display-wrapper mb-4 position-relative mx-auto">
-      <div class="mockup-monitor shadow-lg">
+      <div class="mockup-monitor">
         <div class="mockup-screen d-flex align-items-center justify-content-center" :style="{ backgroundColor: mockupColors[activeColorIndex], transition: 'background-color 1.5s ease' }">
           <i class="bi bi-display text-white fs-1" style="opacity: 0.95; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));"></i>
         </div>
