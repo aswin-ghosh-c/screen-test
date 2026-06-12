@@ -1,7 +1,7 @@
 {
   "appName": "Screen Tester",
   "startTest": "Start Test",
-  "welcomeMessage": "Easily test your device's display quality in a few simple steps.",
+  "welcomeMessage": "Easily test your device''s display quality in a few simple steps.",
   "selectDevice": "Select your device",
   "mobile": "Mobile",
   "web": "Web",
@@ -39,7 +39,7 @@
     "instructions": "Check for brightness and color uniformity across the screen."
   },
   "colordistance": {
-    "instructions": "Check your screen's ability to distinguish between similar colors."
+    "instructions": "Check your screen''s ability to distinguish between similar colors."
   },
   "gradients": {
     "instructions": "Check for smoothness and banding in color gradients."
@@ -52,9 +52,9 @@
     "instructions": "Check for color and brightness consistency at different angles."
   },
   "gamma": {
-    "instructions": "Check your display's gamma response with grayscale bars."
+    "instructions": "Check your display''s gamma response with grayscale bars."
   },
   "responsetime": {
-    "instructions": "Test your display's response time with a moving bar."
+    "instructions": "Test your display''s response time with a moving bar."
   }
 }

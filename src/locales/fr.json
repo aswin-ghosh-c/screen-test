@@ -1,5 +1,5 @@
 {
-  "appName": "Testeur d'Écran",
+  "appName": "Testeur d''Écran",
   "startTest": "Démarrer le Test",
   "selectDevice": "Sélectionnez votre appareil",
   "mobile": "Mobile",
@@ -21,29 +21,29 @@
     "gamma": "Gamma",
     "response-time": "Temps de Réponse"
   },
-  "completionMessage": "Vous avez terminé vos tests d'écran. Merci d'utiliser Testeur d'Écran !",
+  "completionMessage": "Vous avez terminé vos tests d''écran. Merci d''utiliser Testeur d''Écran !",
   "adSpace": "[Espace Publicitaire]",
 
   "language": "Langue",
   "comingSoon": "Bientôt disponible",
-  "welcomeMessage": "Testez facilement la qualité de l'écran de votre appareil en quelques étapes simples.",
+  "welcomeMessage": "Testez facilement la qualité de l''écran de votre appareil en quelques étapes simples.",
   "touch": {
     "instructions": "Touchez et faites glisser votre doigt sur la zone ci-dessous. Le chemin sera dessiné en temps réel."
   },
   "rgb": {
-    "instructions": "Appuyez sur une couleur pour remplir l'écran et vérifier l'uniformité et la visibilité des couleurs."
+    "instructions": "Appuyez sur une couleur pour remplir l''écran et vérifier l''uniformité et la visibilité des couleurs."
   },
   "deadpixel": {
     "instructions": "Appuyez sur la zone ci-dessous pour faire défiler les couleurs unies. Recherchez les pixels bloqués ou morts."
   },
   "uniformity": {
-    "instructions": "Vérifiez l'uniformité de la luminosité et des couleurs sur l'écran."
+    "instructions": "Vérifiez l''uniformité de la luminosité et des couleurs sur l''écran."
   },
   "colordistance": {
     "instructions": "Vérifiez la capacité de votre écran à distinguer les couleurs similaires."
   },
   "gradients": {
-    "instructions": "Vérifiez la douceur et l'absence de bandes dans les dégradés de couleurs."
+    "instructions": "Vérifiez la douceur et l''absence de bandes dans les dégradés de couleurs."
   },
   "sharpness": {
     "instructions": "Vérifiez la clarté et la netteté des lignes et du texte.",

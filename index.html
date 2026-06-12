@@ -4,10 +4,53 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
+    
+    <!-- Primary SEO Metadata -->
+    <title>Screen Tester - Display Panel & Pixel Diagnostic Tool</title>
+    <meta name="title" content="Screen Tester - Display Panel & Pixel Diagnostic Tool" />
+    <meta name="description" content="Test your display quality for free. Diagnostic dead pixels, color uniformity, gradients, sharpness, viewing angles, gamma levels, response time, and mobile touch sensitivity." />
+    <meta name="keywords" content="screen test, dead pixel test, monitor diagnostic, display checker, screen test online, touch screen test, color calibration, screen uniformity test, response time test, gamma calibration" />
+    <meta name="author" content="Screen Tester" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/aswin-ghosh-c/screen-test" />
+    <meta property="og:title" content="Screen Tester - Display Panel & Pixel Diagnostic Tool" />
+    <meta property="og:description" content="Free online screen testing utility. Check display quality, stuck pixels, touch responsiveness, gradients, sharpness, and response time." />
+    <meta property="og:image" content="/vite.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://github.com/aswin-ghosh-c/screen-test" />
+    <meta property="twitter:title" content="Screen Tester - Display Panel & Pixel Diagnostic Tool" />
+    <meta property="twitter:description" content="Free online screen testing utility. Check display quality, stuck pixels, touch responsiveness, gradients, sharpness, and response time." />
+    <meta property="twitter:image" content="/vite.svg" />
+
+    <!-- Performance Optimization: Preconnect Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Global CSS Assets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Structured Data (JSON-LD) for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Screen Tester",
+      "url": "https://github.com/aswin-ghosh-c/screen-test",
+      "description": "An interactive utility to perform screen and display diagnostic tests including dead pixel, touch sensitivity, gradients, response time, and color uniformity tests.",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires HTML5 compatible web browser with JavaScript enabled."
+    }
+    </script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div id="app"><!--app-html--></div>
+    <script type="module" src="/src/entry-client.js"></script>
   </body>
 </html>

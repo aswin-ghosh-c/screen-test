@@ -1,0 +1,6 @@
+# robots.txt for Screen Tester
+User-agent: *
+Allow: /
+
+# Sitemap mapping
+Sitemap: https://github.com/aswin-ghosh-c/screen-test/sitemap.xml

@@ -1,56 +1,81 @@
+<script setup>
+const emit = defineEmits(['select', 'back'])
+</script>
+
 <template>
-  <div class="w-100 h-100 min-vh-100 d-flex flex-column align-items-center justify-content-center bg-gradient" style="background: linear-gradient(135deg, #232526 0%, #414345 100%); font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;">
-    <div class="text-center mb-4">
-      <img src="https://img.icons8.com/color/96/monitor--v1.png" alt="Screen Tester" class="mb-2" style="width:56px;"/>
-      <h1 class="mb-1 fw-bold title-gradient" style="font-size:2.1rem; letter-spacing:0.5px;">Screen Tester</h1>
-      <p class="mb-2 text-secondary" style="font-size:1.08rem;">Test your device's display in style!</p>
+  <div class="glass-panel text-center animate__animated animate__fadeIn mx-auto" style="max-width: 700px; width: 90%;">
+    
+    <!-- Header -->
+    <div class="mb-4 text-center">
+      <i class="bi bi-display-fill text-accent-gradient fs-2 mb-2 d-inline-block"></i>
+      <h2 class="font-outfit fw-bold mb-2">{{ $t('selectDevice') }}</h2>
+      <p class="text-secondary font-outfit" style="font-size: 1.05rem;">
+        Choose the testing environment tailored to your device form factor.
+      </p>
     </div>
-    <div class="d-flex gap-3 justify-content-center mb-1 w-100" style="max-width:500px;">
-      <button class="btn btn-lg btn-gradient-secondary rounded-pill fw-semibold shadow-sm d-flex align-items-center justify-content-center gap-2 flex-fill" disabled>
-        <i class="bi bi-phone-fill" style="font-size:1.2rem;"></i> <span>{{ $t('mobile') }} ({{ $t('comingSoon', 'Coming Soon') }})</span>
-      </button>
-      <button class="btn btn-lg btn-gradient-success rounded-pill fw-semibold shadow-sm d-flex align-items-center justify-content-center gap-2 flex-fill" @click="$emit('select', 'web')">
-        <i class="bi bi-laptop-fill" style="font-size:1.2rem;"></i> <span>{{ $t('web') }}</span>
+
+    <!-- Selection Grid -->
+    <div class="row g-4 justify-content-center mb-5">
+      <!-- Web Platform Card -->
+      <div class="col-12 col-sm-6">
+        <div class="glass-card h-100 d-flex flex-column align-items-center justify-content-center p-4" @click="emit('select', 'web')">
+          <div class="icon-circle mb-3 bg-gradient-success-glow">
+            <i class="bi bi-laptop text-success fs-2"></i>
+          </div>
+          <h3 class="h5 font-outfit fw-semibold mb-2 text-white">{{ $t('web') }}</h3>
+          <p class="fs-7 text-secondary text-center mb-0 px-2">
+            Optimized for full-screen laptop and desktop monitors. Calibration and pixel diagnostics.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mobile Platform Card -->
+      <div class="col-12 col-sm-6">
+        <div class="glass-card h-100 d-flex flex-column align-items-center justify-content-center p-4" @click="emit('select', 'mobile')">
+          <div class="icon-circle mb-3 bg-gradient-accent-glow">
+            <i class="bi bi-phone text-primary fs-2"></i>
+          </div>
+          <h3 class="h5 font-outfit fw-semibold mb-2 text-white">{{ $t('mobile') }}</h3>
+          <p class="fs-7 text-secondary text-center mb-0 px-2">
+            Optimized for touchscreen devices. Includes touch response and resolution tests.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back Button -->
+    <div class="d-flex justify-content-center mt-2">
+      <button class="btn btn-glass px-4 py-2" @click="emit('back')">
+        <i class="bi bi-arrow-left me-2"></i>{{ $t('goBack') }}
       </button>
     </div>
+
   </div>
 </template>
 
-<script setup>
-// Emits 'select' event with 'mobile' or 'web'
-</script>
-
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
-@import 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+.icon-circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.title-gradient {
-  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.bg-gradient-success-glow {
+  background: rgba(56, 239, 125, 0.1);
+  border: 1px solid rgba(56, 239, 125, 0.25);
+  box-shadow: 0 0 15px rgba(56, 239, 125, 0.05);
 }
-.btn-gradient-primary {
-  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-  color: #fff;
-  border: none;
-  transition: box-shadow 0.2s, transform 0.2s;
+
+.bg-gradient-accent-glow {
+  background: rgba(108, 99, 255, 0.1);
+  border: 1px solid rgba(108, 99, 255, 0.25);
+  box-shadow: 0 0 15px rgba(108, 99, 255, 0.05);
 }
-.btn-gradient-primary:hover {
-  box-shadow: 0 4px 24px 0 #6a11cb44;
-  transform: translateY(-2px) scale(1.04);
-  color: #fff;
-}
-.btn-gradient-success {
-  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
-  color: #fff;
-  border: none;
-  transition: box-shadow 0.2s, transform 0.2s;
-}
-.btn-gradient-success:hover {
-  box-shadow: 0 4px 24px 0 #43e97b44;
-  transform: translateY(-2px) scale(1.04);
-  color: #fff;
+
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
 }
 </style>

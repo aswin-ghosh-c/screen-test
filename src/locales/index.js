@@ -8,7 +8,9 @@ import ja from './ja.json'
 import hi from './hi.json'
 import id from './id.json'
 import km from './km.json'
+import ml from './ml.json'
+import ta from './ta.json'
 
 export default {
-  en, es, fr, de, zh, ru, ja, hi, id, km
+  en, es, fr, de, zh, ru, ja, hi, id, km, ml, ta
 }
