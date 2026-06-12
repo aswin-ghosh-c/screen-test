@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 import express from 'express'
 
 // Inject Vue SSR environment flags globally for Node.js
@@ -11,7 +11,6 @@ globalThis.__VUE_I18N_LEGACY_API__ = false
 globalThis.__VUE_I18N_PROD_DEVTOOLS__ = false
 globalThis.__INTLIFY_PROD_DEVTOOLS__ = false
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const isProd = process.env.NODE_ENV === 'production'
 const root = process.cwd()
 
@@ -41,7 +40,7 @@ async function createServer() {
     app.use(vite.middlewares)
   } else {
     app.use(
-      express.static(path.resolve(__dirname, 'dist/client'), {
+      express.static(path.resolve(root, 'dist/client'), {
         index: false
       })
     )
@@ -58,8 +57,9 @@ async function createServer() {
         template = await vite.transformIndexHtml(url, template)
         render = (await vite.ssrLoadModule('/src/entry-server.js')).render
       } else {
-        template = fs.readFileSync(path.resolve(__dirname, 'dist/client/index.html'), 'utf-8')
-        render = (await import('./dist/server/entry-server.js')).render
+        template = fs.readFileSync(path.resolve(root, 'dist/client/index.html'), 'utf-8')
+        const serverEntryPath = path.resolve(root, 'dist/server/entry-server.js')
+        render = (await import(pathToFileURL(serverEntryPath).href)).render
       }
 
       const { html: appHtml } = await render(url)
